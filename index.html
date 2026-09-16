@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+
+<html lang="de"> 
+
+<head> 
+
+<meta charset="UTF-8"> 
+
+<title>Mein Tierquiz</title> 
+
+<link rel="stylesheet" href="style.css"> 
+
+</head> 
+
+<body> 
+
+ 
+
+<!-- Titelscreen --> 
+
+<div id="titelscreen"> 
+
+<h1>Willkommen zum Tierquiz!</h1> 
+
+<p>Beantworte 10 Fragen richtig. Jede Antwort giebt einen Punkt!</p> 
+
+<button id="startBtn">Start</button> 
+
+</div> 
+
+ 
+
+<!-- Quiz Container --> 
+
+<div class="quiz-container" style="display:none;"> 
+
+<div id="punktesystem">Punkte: 0 | Zeit: 0s</div> 
+
+ 
+
+<h1>Mein Tierquiz</h1> 
+
+ 
+
+<p id="frage"></p> 
+
+ 
+
+<div class="buttons"> 
+
+<button id="button1" class="btn" onclick="checkAnswer(0)"></button> 
+
+<button id="button2" class="btn" onclick="checkAnswer(1)"></button> 
+
+<button id="button3" class="btn" onclick="checkAnswer(2)"></button> 
+
+</div> 
+
+ 
+
+<p id="result"></p> 
+
+ 
+
+<canvas id="statistikChart" width="300" height="300"></canvas> 
+
+</div> 
+
+ 
+
+<!-- Chart.js Bibliothek --> 
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+
+<script src="script.js"></script> 
+
+</body> 
+
+</html>

@@ -1,0 +1,95 @@
+body { 
+
+font-family: Arial, sans-serif; 
+
+background-color: #f0f4f8; 
+
+display: flex; 
+
+justify-content: center; 
+
+align-items: center; 
+
+height: 100vh; 
+
+flex-direction: column; 
+
+} 
+
+ 
+
+#titelscreen { 
+
+text-align: center; 
+
+} 
+
+ 
+
+#titelscreen button { 
+
+padding: 12px 25px; 
+
+font-size: 18px; 
+
+cursor: pointer; 
+
+background-color: #3498db; 
+
+color: white; 
+
+border: none; 
+
+border-radius: 8px; 
+
+} 
+
+ 
+
+.quiz-container { 
+
+background: white; 
+
+padding: 30px; 
+
+border-radius: 10px; 
+
+text-align: center; 
+
+box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+
+} 
+
+ 
+
+h1 { margin-bottom: 20px; } 
+
+#frage { font-size: 20px; margin-bottom: 20px; } 
+
+ 
+
+.buttons { display: flex; gap: 15px; justify-content: center; margin-bottom: 20px; } 
+
+.btn { padding: 12px 20px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; color: white; transition: transform 0.2s; } 
+
+#button1 { background-color: #3498db; } 
+
+#button2 { background-color: #e74c3c; } 
+
+#button3 { background-color: #2ecc71; } 
+
+.btn:hover { transform: scale(1.05); } 
+
+ 
+
+#result { margin-top: 20px; font-size: 22px; font-weight: bold; } 
+
+ 
+
+#punktesystem { position: fixed; top: 20px; right: 20px; background-color: #3498db; color: white; padding: 10px 20px; border-radius: 10px; font-size: 18px; font-weight: bold; } 
+
+ 
+
+#statistikChart{ margin: 20px auto; display: block; } 
+
+ 
